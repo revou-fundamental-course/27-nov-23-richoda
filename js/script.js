@@ -54,16 +54,16 @@ function setInputs(page) {
             document.getElementById("title-text").innerHTML = "Luas Segitiga";
             a = 1;
             return [
-                { label: 'Alas =', id: 'alas' },
-                { label: 'Tinggi =', id: 'tinggi' },
+                { label: 'Alas', id: 'alas' },
+                { label: 'Tinggi', id: 'tinggi' },
             ];
         case 'keliling':
             document.getElementById("title-text").innerHTML = "Keliling Segitiga";
             a = 2;
             return [
-                { label: 'Sisi 1 =', id: 'Sisi1' },
-                { label: 'Sisi 2 =', id: 'Sisi2' },
-                { label: 'Sisi 3 =', id: 'Sisi3' },
+                { label: 'Sisi 1', id: 'Sisi1' },
+                { label: 'Sisi 2', id: 'Sisi2' },
+                { label: 'Sisi 3', id: 'Sisi3' },
             ];
         default:
             return [];
